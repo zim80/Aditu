@@ -374,7 +374,7 @@ body {
 
 body {
   /* Временно для сетки */
-    background-image: url("../Aditu.jpg");
+/*     background-image: url("../Aditu.jpg"); */
     background-size: 1280px auto;
     background-repeat: no-repeat;
     background-position: top;
