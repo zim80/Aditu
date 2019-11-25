@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "BebasNeueRegular", Arial, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation__logo {
+    font-family: "Lobster", Arial, sans-serif;
+    font-size: 49px;
+    text-decoration: none;
+    color: #3cc3b5;
+}
+
+.user-cart__total {
+    font-family: "BebasNeueBold";
+
+font-size: 33px;
+
+line-height: 19px;
+
+color: #a1a1a1;
+
+display: inline-block;
+
+margin-left: 193px;
+
+margin-top: 30px;
+}
+.main-navigation__list {
+    background: #4ccfc1;
+    list-style: none;
+
+}
+
+.navigation-list__item {
+    padding: 10px 18px;
+    justify-content: space-between;
+}
+
+.navigation-list__link {
+    font-size: 21px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation-list__link--current {
+    font-size: 21px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #a1a1a1;
+}
+
+.main-slider {
+background-image: url("../img/bg.png");
+padding-top: 82px;
+
+}
+
+.slider-list__item {
+    display: none;
+    background-image: url("../img/levis.png");
+    background-repeat: no-repeat;
+  background-position: 93% 3px;
+}
+
+.slider-list__item:nth-child(4) {
+    display: block;
+
+}
+
+.slider-list__heading {
+    font-size: 61px;
+    line-height: 54px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.slider-list__content {
+    font-family: "OpenSans", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.slider-list__button {
+    font-family: "BebasNeueBold", Arial, sans-serif;
+    font-size: 27px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 8px;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.categories-list {
+    list-style: none;
+}
+
+.categories-item__header {
+    font-family: "BebasNeueBold", Arial, sans-serif;
+    font-size: 27px;
+    line-height: 25px;
+    color: #afafaf;
+}
+
+.categories-item__button {
+    font-family: "BebasNeueBold", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3cc395;
+    border-radius: 3px;
+    padding: 8px 14px 5px 14px;
+}
+
+.products-header {
+    font-family: "BebasNeueBold", Arial, sans-serif;
+    font-size: 31px;
+    line-height: 25px;
+    color: #ffffff;
+    background-image: url("../img/bg.png");
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.products-list {
+    list-style: none;
+}
+
+.products-item__name {
+    font-family: "BebasNeueBold", Arial, sans-serif;
+    font-size: 27px;
+    line-height: 25px;
+    color: #afafaf;
+}
+
+.products-item__price {
+    font-family: "BebasNeueBold";
+    font-size: 27px;
+    line-height: 25px;
+    color: #a1a1a1;
+}
+
+.products-item__btn {
+    font-family: "BebasNeueBold", Arial, sans-serif;
+    font-size: 19px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3cc395;
+    border-radius: 3px;
+    padding: 8px 14px 5px 14px;
+}
+
+.products-list {
+    display: flex;
+}
+
+.products-item {
+    width: 256px;
+    height: 262px;
+    border: 2px solid grey;
+    display: block;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.user-navigation {
+    display: flex;
+    height: 83px;
+}
+
+.main-navigation__search-area {
+    width: 436px;
+    height: 32px;
+    border: 1px solid #e1e1e1;
+    margin-top: 26px;
+    margin-left: 170px;
+}
+
+.user-cart__link {
+    position: relative;
+}
+
+.user-cart__link::before {
+    content: "";
+    width: 41px;
+    height: 37px;
+  
+    position: absolute;
+    top: -18px;
+    left: 139px;
+  
+    background-image: url("../img/cart.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+.page-footer {
+    background-color: #3cc3b5;
+}
+
+.footer-sections__name {
+    font-family: "BebasNeueBold", Arial, sans-serif;
+    font-size: 27px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.sale-name {
+    font-family: "OpenSans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.page-footer__sections {
+    display: flex;
+    list-style: none;
+}
+
+.sale__list {
+    list-style: none;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.main-navigation {
+    background-color: #4ccfc1;
+}
+
+.navigation-list {
+    display: flex;
+    height: 37px;
+    justify-content: space-around;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/bebasneuethin.woff2") format("woff2"), url("../fonts/bebasneuethin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeueLight";
+    src: url("../fonts/bebasneuelight.woff2") format("woff2"), url("../fonts/bebasneuelight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeueBook";
+    src: url("../fonts/bebasneuebook.woff2") format("woff2"), url("../fonts/bebasneuebook.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeueRegular";
+    src: url("../fonts/bebasneueregular.woff2") format("woff2"), url("../fonts/bebasneueregular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url("../fonts/bebasneuebold.woff2") format("woff2"), url("../fonts/bebasneuebold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+  }
+ @font-face {font-family:"Lobster";
+    src: url("../fonts/Lobster_1_4.woff")  format("woff");
+    font-style:normal;
+    font-weight:normal;
+}
